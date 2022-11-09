@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    font-family: outfit;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-img{
+    width: 230px;
+    border-radius: 9px;
+}
+
+.container{
+    width: 260px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 18px;
+    text-align: center;
+}
+.p1{
+    font-weight: 700;
+    width: 200px;
+}
+.p2{
+    font-size: 13px;
+    width: 200px;
+    color:  hsl(220, 15%, 55%);
+}
